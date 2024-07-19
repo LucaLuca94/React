@@ -1,10 +1,11 @@
-import { HelloWorld, Message, MessageText } from "./helloWord";
+import { Age, Welcome } from "./welcome";
 
 export function App() {
   return (
     <div>
-      <HelloWorld />
-      <MessageText />
+      
+      <Welcome name="Luca"  />
+      <Age age={29} />
     </div>
   );
 }
